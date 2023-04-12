@@ -23,10 +23,12 @@ One should replace the constants seen in `request.py` with their own values. I r
 
 Below is an example `constants.py` file:
 
-`SMTP_Password = "Password123"`
-`SMTP_Username = "my-email@gmail.com"`
-`SMTP_To = "my-other-email@gmail.com"`
-`my_header = {API: "api_key", User-Agent: "my_computer"}`
+```python
+SMTP_Password = "Password123"
+SMTP_Username = "my-email@gmail.com"
+SMTP_To = "my-other-email@gmail.com"
+my_header = {API: "api_key", User-Agent: "my_computer"}
+```
 
 ## Notes
 
